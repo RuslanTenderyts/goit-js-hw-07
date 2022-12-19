@@ -31,8 +31,24 @@ function onImgGalleryClick(evt) {
   
   let gallery = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
+    navText:	['54','56'],
     captionsDelay: 250,
 })
 
 
+
+// function onImgGalleryClick(evt) {
+//   evt.preventDefault();
+
+//   if(!evt.target.classList.contains('gallery__image')) {
+//       return;
+//     }
+    
+//     let gallery = new SimpleLightbox('.gallery a');
+//     gallery.on('show.simplelightbox', function () {
+//     console.log('shoese')
+// });
+//   };
+  
+ 
 
